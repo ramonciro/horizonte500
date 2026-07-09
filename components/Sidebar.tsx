@@ -11,6 +11,7 @@ const NAV = [
   { href: "/objetivos", label: "Objetivos", icon: "◈" },
   { href: "/decisoes", label: "Decisões", icon: "✎" },
   { href: "/backlog", label: "Backlog", icon: "▦" },
+  { href: "/config", label: "Configurações", icon: "⚙" },
 ];
 
 export default function Sidebar() {
