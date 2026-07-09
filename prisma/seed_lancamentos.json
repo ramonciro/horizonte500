@@ -1,0 +1,1514 @@
+[
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3306.04,
+  "realizado": 3306.04
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Venda - Prateleira",
+  "previsto": 200,
+  "realizado": 200
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Emprés. Externo (Consig. D — 2/6)",
+  "previsto": 98.77,
+  "realizado": 98.77
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 43.73
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 94.99
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 130,
+  "realizado": 147.6
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Nádia)",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 280.85
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 100
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 153
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 1377.61,
+  "realizado": 1449.22
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "IPVA (parcela 2/5)",
+  "previsto": 180.9,
+  "realizado": 180.9
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 5.39
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 557.19,
+  "realizado": 557.19
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Boticário",
+  "previsto": 116.12,
+  "realizado": 116.12
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Sem Parar - Pai",
+  "previsto": 200,
+  "realizado": 200
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Lanche - Hortencia",
+  "previsto": 29,
+  "realizado": 29
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 92.26,
+  "realizado": 92.26
+ },
+ {
+  "mes": "Maio",
+  "data": "2026-05-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Aniversariante do mês",
+  "previsto": 9.74,
+  "realizado": 29.74
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3306.04,
+  "realizado": 4055.36
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Férias",
+  "previsto": 2134.53,
+  "realizado": 2134.53
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 152.1,
+  "realizado": 152.1
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Emprés. Externo (Consig. D — 3/6)",
+  "previsto": 98.77,
+  "realizado": 98.77
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 42.89
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.93
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 131.67
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Nádia)",
+  "previsto": 500,
+  "realizado": 300
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 300,
+  "realizado": 280.85
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 0
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 1540.41,
+  "realizado": 1540.41
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "IPVA (parcela 3/5)",
+  "previsto": 180.91,
+  "realizado": 180.91
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 45.5
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Boticário",
+  "previsto": 116.12,
+  "realizado": 116.12
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 1476.52,
+  "realizado": 1476.52
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 92.26,
+  "realizado": 92.26
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 77.26,
+  "realizado": 77.26
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Natura",
+  "previsto": 26.67,
+  "realizado": 26.67
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Lanche - Hortencia",
+  "previsto": 75,
+  "realizado": 75
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Presentes",
+  "previsto": 18.92,
+  "realizado": 18.92
+ },
+ {
+  "mes": "Junho",
+  "data": "2026-06-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Caixa - Mãe",
+  "previsto": 50,
+  "realizado": 50
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 1673.92,
+  "realizado": 1673.92
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Abono PIS",
+  "previsto": 1621,
+  "realizado": 1621
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 334.62
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Emprés. Externo (Consig. D — 4/6)",
+  "previsto": 98.77,
+  "realizado": 98.77
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 43.76
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 106.63
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 500,
+  "realizado": 542.52
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 300,
+  "realizado": 0
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 200,
+  "realizado": 0
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 546.37,
+  "realizado": 1851.83
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "IPVA (parcela 4/5)",
+  "previsto": 180.9,
+  "realizado": 180.9
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 5.39
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 163.04,
+  "realizado": 163.04
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 92.26,
+  "realizado": 92.26
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 77.26,
+  "realizado": 77.26
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Natura",
+  "previsto": 26.67,
+  "realizado": 26.67
+ },
+ {
+  "mes": "Julho",
+  "data": "2026-07-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Perfumes",
+  "previsto": 95.3,
+  "realizado": 95.3
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Emprés. Externo (Consig. D — 5/6)",
+  "previsto": 98.77,
+  "realizado": 98.77
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 300,
+  "realizado": 0
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 0
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 923.93,
+  "realizado": 923.93
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 499.13,
+  "realizado": 499.13
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "IPVA (parcela 5/5+ Licen.)",
+  "previsto": 362.03,
+  "realizado": 362.03
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 5.39
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Pratas",
+  "previsto": 77.26,
+  "realizado": 77.26
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Natura",
+  "previsto": 26.67,
+  "realizado": 26.67
+ },
+ {
+  "mes": "Agosto",
+  "data": "2026-08-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Perfumes",
+  "previsto": 95.3,
+  "realizado": 95.3
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Emprés. Externo (Consig. D — 6/6)",
+  "previsto": 98.77,
+  "realizado": 98.77
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 0
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 0
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 198
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 0,
+  "realizado": 271.19
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 93.35,
+  "realizado": 93.35
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 5.39
+ },
+ {
+  "mes": "Setembro",
+  "data": "2026-09-01",
+  "tipo": "Despesa",
+  "categoria": "Extra",
+  "descricao": "Ana - Perfumes",
+  "previsto": 95.3,
+  "realizado": 95.3
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. A",
+  "previsto": 349.39,
+  "realizado": 349.39
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 350
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 198
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Pai",
+  "previsto": 93.35,
+  "realizado": 93.35
+ },
+ {
+  "mes": "Outubro",
+  "data": "2026-10-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 5.39,
+  "realizado": 5.39
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 350
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 198
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Novembro",
+  "data": "2026-11-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 59.9,
+  "realizado": 59.9
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 350
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 198
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Dezembro",
+  "data": "2026-12-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 59.9,
+  "realizado": 59.9
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Salário Líquido (após INSS/IR)",
+  "previsto": 3409.76,
+  "realizado": 3409.76
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. B",
+  "previsto": 223.47,
+  "realizado": 223.47
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Dívida - Consignado",
+  "descricao": "Consig. C",
+  "previsto": 30.51,
+  "realizado": 30.51
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Receita",
+  "categoria": "Renda",
+  "descricao": "Ticket Alimentação (benefício)",
+  "previsto": 330,
+  "realizado": 330
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Seguro do Carro",
+  "previsto": 225,
+  "realizado": 225
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Plano Celular (Claro)",
+  "previsto": 39.59,
+  "realizado": 39.59
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Internet (Tim Banda Larga)",
+  "previsto": 97.57,
+  "realizado": 97.57
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Fixa",
+  "descricao": "Energia Elétrica (Neoenergia)",
+  "previsto": 140,
+  "realizado": 140
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Gasolina",
+  "previsto": 500,
+  "realizado": 500
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Alimentação (complemento em dinheiro)",
+  "previsto": 350,
+  "realizado": 350
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Estacionamento (dias presencial × R$9)",
+  "previsto": 198,
+  "realizado": 198
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Cartão Neon",
+  "previsto": 0,
+  "realizado": 0
+ },
+ {
+  "mes": "Janeiro",
+  "data": "2027-01-01",
+  "tipo": "Despesa",
+  "categoria": "Despesa Variável",
+  "descricao": "Sem Parar (pacote semestral)",
+  "previsto": 59.9,
+  "realizado": 59.9
+ }
+]
