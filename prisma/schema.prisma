@@ -1,0 +1,109 @@
+// Horizonte 500 — Schema V1.1 (Finanças + Patrimônio + Objetivos + Decisões + Backlog)
+// Princípio: um dado existe apenas uma vez. Lancamento é a fonte única de
+// verdade das finanças; Dashboard e Evolução são sempre derivados dela.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum TipoLancamento {
+  Receita
+  Despesa
+}
+
+model Lancamento {
+  id         String         @id @default(cuid())
+  mes        String
+  data       DateTime
+  tipo       TipoLancamento
+  categoria  String
+  descricao  String
+  previsto   Float
+  realizado  Float
+  observacao String?
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@index([mes])
+  @@index([tipo])
+}
+
+model Divida {
+  id               String   @id @default(cuid())
+  empresa          String
+  tipo             String
+  saldoOriginal    Float
+  descontoPossivel Float
+  valorComDesconto Float
+  parcelamento     String
+  prioridade       String
+  estrategia       String
+  status           String
+  observacoes      String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model DividaPaiPagamento {
+  id         String   @id @default(cuid())
+  data       DateTime
+  valorPago  Float
+  saldoAntes Float
+  saldoApos  Float
+  observacao String?
+  createdAt  DateTime @default(now())
+}
+
+model Objetivo {
+  id          String   @id @default(cuid())
+  nome        String
+  meta        Float
+  atual       Float
+  prazo       String
+  proximaAcao String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Decisao {
+  id                String   @id @default(cuid())
+  data              DateTime @default(now())
+  decisao           String
+  motivo            String
+  resultadoEsperado String
+  resultadoObtido   String?
+  createdAt         DateTime @default(now())
+}
+
+// Módulo Patrimônio (v1.1) — Conta, FGTS, Veículo, Investimentos, Imóveis...
+model Ativo {
+  id           String   @id @default(cuid())
+  nome         String
+  tipo         String // Conta | FGTS | Veículo | Investimentos | Imóveis | Outros
+  valor        Float
+  atualizadoEm DateTime @default(now())
+  observacao   String?
+  createdAt    DateTime @default(now())
+}
+
+// Backlog interno do produto — ideias, melhorias, funcionalidades futuras
+model BacklogItem {
+  id        String   @id @default(cuid())
+  titulo    String
+  descricao String?
+  categoria String   @default("Ideia") // Ideia | Melhoria | Funcionalidade | Bug
+  status    String   @default("Backlog") // Backlog | Em análise | Planejado | Descartado
+  createdAt DateTime @default(now())
+}
+
+model Config {
+  id    String @id @default(cuid())
+  chave String @unique
+  valor String
+}
