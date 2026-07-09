@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0b1220;
+  color: #e7eaf0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7c879e;
+  padding: 8px 10px;
+  border-bottom: 1px solid #232c42;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #1b2338;
+  font-size: 13.5px;
+}
+
+tr:hover td {
+  background: #171f33;
+}
