@@ -46,6 +46,58 @@ export function Badge({ text }: { text: string }) {
   );
 }
 
+export function TrendBadge({ pct, invert = false }: { pct: number | null; invert?: boolean }) {
+  if (pct === null || !isFinite(pct)) return null;
+  const isUp = pct >= 0;
+  const good = invert ? !isUp : isUp;
+  const color = good ? "text-good" : "text-bad";
+  const arrow = isUp ? "↑" : "↓";
+  return (
+    <span className={`text-[12px] font-semibold ${color}`}>
+      {arrow} {Math.abs(pct).toFixed(0)}%
+    </span>
+  );
+}
+
+export function Sparkline({ points, width = 320, height = 56 }: { points: number[]; width?: number; height?: number }) {
+  if (points.length < 2) {
+    return <div className="text-[12px] text-muted">Dados insuficientes ainda — precisa de pelo menos 2 meses.</div>;
+  }
+  const min = Math.min(...points);
+  const max = Math.max(...points);
+  const range = max - min || 1;
+  const stepX = width / (points.length - 1);
+  const coords = points.map((p, i) => {
+    const x = i * stepX;
+    const y = height - ((p - min) / range) * (height - 8) - 4;
+    return [x, y];
+  });
+  const path = coords.map(([x, y], i) => `${i === 0 ? "M" : "L"}${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
+  const last = coords[coords.length - 1];
+  const trendUp = points[points.length - 1] >= points[0];
+  const color = trendUp ? "#34D399" : "#F87171";
+  return (
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
+      <path d={path} fill="none" stroke={color} strokeWidth="2" />
+      <circle cx={last[0]} cy={last[1]} r="3.5" fill={color} />
+    </svg>
+  );
+}
+
+export function AlertItem({ tipo, texto }: { tipo: "alerta" | "positivo" | "info"; texto: string }) {
+  const styles: Record<string, { bg: string; icon: string }> = {
+    alerta: { bg: "border-l-4 border-bad", icon: "⚠" },
+    positivo: { bg: "border-l-4 border-good", icon: "✓" },
+    info: { bg: "border-l-4 border-blue", icon: "ℹ" },
+  };
+  const s = styles[tipo];
+  return (
+    <div className={`${s.bg} pl-3 py-1.5 text-[13px] text-ink/90`}>
+      <span className="mr-1.5">{s.icon}</span>
+      {texto}
+    </div>
+  );
+}
 export function Ring({ pct, status }: { pct: number; status: "good" | "warn" | "bad" }) {
   const circumference = 2 * Math.PI * 54;
   const dash = Math.max(0, Math.min(1, pct)) * circumference;
