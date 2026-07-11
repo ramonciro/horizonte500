@@ -102,6 +102,19 @@ model BacklogItem {
   createdAt DateTime @default(now())
 }
 
+// Módulo Evolução — snapshot mensal do estado financeiro, para gráficos históricos reais
+model Snapshot {
+  id               String   @id @default(cuid())
+  mesReferencia    String   @unique // "2026-07"
+  data             DateTime
+  patrimonioLiquido Float
+  totalAtivos      Float
+  totalDividas     Float
+  reservaAtual     Float
+  fluxoMes         Float
+  createdAt        DateTime @default(now())
+}
+
 model Config {
   id    String @id @default(cuid())
   chave String @unique
