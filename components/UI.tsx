@@ -1,3 +1,5 @@
+import type { LucideIcon } from "lucide-react";
+
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
     <div className={`bg-surface border border-border rounded-2xl px-5 py-4 ${className}`}>
@@ -16,7 +18,7 @@ export function HeroCard({
   label: string;
   value: string;
   breakdown?: string;
-  icon?: React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>;
+  icon?: LucideIcon;
   tone?: "teal" | "good" | "bad";
 }) {
   const valueColor = { teal: "text-teal", good: "text-good", bad: "text-bad" }[tone];
