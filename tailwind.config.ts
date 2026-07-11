@@ -11,6 +11,8 @@ const config: Config = {
         border: "#232C42",
         gold: "#C9A227",
         blue: "#4C7CF3",
+        teal: "#2DD4BF",
+        purple: "#8B5CF6",
         good: "#34D399",
         bad: "#F87171",
         muted: "#7C879E",
