@@ -4,16 +4,18 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutGrid, Wallet, Upload, AlertCircle, Building2, Target,
-  FileText, Kanban, Settings,
+  FileText, Kanban, Settings, Activity, LineChart,
 } from "lucide-react";
 
 const NAV = [
   { href: "/", label: "Home", icon: LayoutGrid },
+  { href: "/status", label: "Status", icon: Activity },
   { href: "/financas", label: "Finanças", icon: Wallet },
   { href: "/importar", label: "Importar", icon: Upload },
   { href: "/dividas", label: "Dívidas", icon: AlertCircle },
   { href: "/patrimonio", label: "Patrimônio", icon: Building2 },
   { href: "/objetivos", label: "Objetivos", icon: Target },
+  { href: "/evolucao", label: "Evolução", icon: LineChart },
   { href: "/decisoes", label: "Decisões", icon: FileText },
   { href: "/backlog", label: "Backlog", icon: Kanban },
   { href: "/config", label: "Configurações", icon: Settings },

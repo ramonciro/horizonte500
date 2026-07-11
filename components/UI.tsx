@@ -113,6 +113,77 @@ export function Sparkline({ points, width = 320, height = 56 }: { points: number
   );
 }
 
+export function EvolutionChart({
+  titulo,
+  pontos,
+  formatador,
+  cor = "#2DD4BF",
+}: {
+  titulo: string;
+  pontos: { label: string; valor: number }[];
+  formatador: (n: number) => string;
+  cor?: string;
+}) {
+  const width = 460;
+  const height = 200;
+  const padL = 56;
+  const padB = 24;
+  const padT = 10;
+  const padR = 14;
+
+  if (pontos.length === 0) {
+    return (
+      <Card>
+        <div className="text-[11px] text-muted uppercase tracking-wide mb-3">{titulo}</div>
+        <div className="text-[12.5px] text-muted h-[160px] flex items-center justify-center">
+          Nenhum snapshot ainda — clique em &quot;Snapshot do mês atual&quot;.
+        </div>
+      </Card>
+    );
+  }
+
+  const valores = pontos.map((p) => p.valor);
+  const min = Math.min(0, ...valores);
+  const max = Math.max(...valores, 1);
+  const range = max - min || 1;
+  const plotW = width - padL - padR;
+  const plotH = height - padT - padB;
+
+  const stepX = pontos.length > 1 ? plotW / (pontos.length - 1) : 0;
+  const coords = pontos.map((p, i) => {
+    const x = padL + (pontos.length > 1 ? i * stepX : plotW / 2);
+    const y = padT + plotH - ((p.valor - min) / range) * plotH;
+    return { x, y, ...p };
+  });
+  const path = coords.map((c, i) => `${i === 0 ? "M" : "L"}${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ");
+
+  const gridLines = [0, 0.25, 0.5, 0.75, 1].map((f) => min + f * range);
+
+  return (
+    <Card>
+      <div className="text-[11px] text-muted uppercase tracking-wide mb-3">{titulo}</div>
+      <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="max-w-full">
+        {gridLines.map((v, i) => {
+          const y = padT + plotH - ((v - min) / range) * plotH;
+          return (
+            <g key={i}>
+              <line x1={padL} y1={y} x2={width - padR} y2={y} stroke="#232C42" strokeWidth="1" strokeDasharray="3,3" />
+              <text x={padL - 8} y={y + 3} textAnchor="end" fontSize="9.5" fill="#7C879E">{formatador(v)}</text>
+            </g>
+          );
+        })}
+        <path d={path} fill="none" stroke={cor} strokeWidth="2" />
+        {coords.map((c, i) => (
+          <g key={i}>
+            <circle cx={c.x} cy={c.y} r="3.5" fill={cor} />
+            <text x={c.x} y={height - 6} textAnchor="middle" fontSize="9.5" fill="#7C879E">{c.label}</text>
+          </g>
+        ))}
+      </svg>
+    </Card>
+  );
+}
+
 export function AlertItem({ tipo, texto }: { tipo: "alerta" | "positivo" | "info"; texto: string }) {
   const styles: Record<string, { bg: string; icon: string }> = {
     alerta: { bg: "border-l-4 border-bad", icon: "⚠" },
