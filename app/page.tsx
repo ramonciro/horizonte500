@@ -1,10 +1,11 @@
 import { prisma } from "@/lib/prisma";
 import { fmtBRL } from "@/lib/format";
-import { Card, KPI, Ring, TrendBadge, Sparkline, AlertItem } from "@/components/UI";
+import { Card, HeroCard, KPI, Ring, TrendBadge, Sparkline, AlertItem } from "@/components/UI";
+import { Wallet, TrendingUp } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
-const DIAS = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+const MESES_NOME = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
 
 function saudacao(hora: number) {
   if (hora < 12) return "Bom dia";
@@ -132,18 +133,36 @@ async function getHomeData() {
 export default async function HomePage() {
   const d = await getHomeData();
   const agora = new Date();
-  const dia = DIAS[agora.getDay()];
 
   return (
     <>
       <div className="mb-6">
-        <h1 className="font-display text-2xl font-semibold">{saudacao(agora.getHours())}, Ramon.</h1>
-        <p className="text-[13px] text-muted mt-1">
-          Hoje é {dia}{d.atual ? ` · referência: ${d.atual.mes}` : ""}.
+        <div className="text-[11px] tracking-[0.15em] text-teal uppercase font-semibold mb-2">
+          Cockpit · {MESES_NOME[agora.getMonth()]} de {agora.getFullYear()}
+        </div>
+        <h1 className="font-display text-[32px] font-bold leading-tight mb-2">
+          Qual é a melhor decisão hoje?
+        </h1>
+        <p className="text-[13.5px] text-muted">
+          {saudacao(agora.getHours())}, Ramon. Sua situação em 30 segundos: patrimônio, fluxo, dívidas e a próxima ação.
         </p>
-        <p className="text-[13px] text-muted italic mt-2">
-          &quot;Qual é a melhor decisão hoje para aumentar meu patrimônio e minha liberdade?&quot;
-        </p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-3.5 mb-6">
+        <HeroCard
+          label="Patrimônio Líquido"
+          value={fmtBRL(d.patrimonioLiquido)}
+          breakdown={`Bruto ${fmtBRL(d.patrimonioLiquido + d.dividaTotal)} · Dívidas ${fmtBRL(d.dividaTotal)}`}
+          icon={Wallet}
+          tone={d.patrimonioLiquido >= 0 ? "teal" : "bad"}
+        />
+        <HeroCard
+          label="Fluxo do Mês"
+          value={d.atual ? fmtBRL(d.atual.saldo) : "—"}
+          breakdown={d.atual ? `+${fmtBRL(d.atual.receita)} · -${fmtBRL(d.atual.despesa)}` : undefined}
+          icon={TrendingUp}
+          tone={d.atual && d.atual.saldo >= 0 ? "good" : "bad"}
+        />
       </div>
 
       <div className="grid grid-cols-[140px_1fr] gap-6 mb-6 items-center">
@@ -153,7 +172,7 @@ export default async function HomePage() {
           <ol className="space-y-1.5">
             {d.prioridades.slice(0, 3).map((p, i) => (
               <li key={i} className="text-[13.5px] leading-relaxed">
-                <span className="text-gold font-semibold mr-1.5">{i + 1}.</span>{p}
+                <span className="text-teal font-semibold mr-1.5">{i + 1}.</span>{p}
               </li>
             ))}
           </ol>
