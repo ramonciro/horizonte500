@@ -1,7 +1,34 @@
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
-    <div className={`bg-surface border border-border rounded-[10px] px-5 py-4 ${className}`}>
+    <div className={`bg-surface border border-border rounded-2xl px-5 py-4 ${className}`}>
       {children}
+    </div>
+  );
+}
+
+export function HeroCard({
+  label,
+  value,
+  breakdown,
+  icon: Icon,
+  tone = "teal",
+}: {
+  label: string;
+  value: string;
+  breakdown?: string;
+  icon?: React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>;
+  tone?: "teal" | "good" | "bad";
+}) {
+  const valueColor = { teal: "text-teal", good: "text-good", bad: "text-bad" }[tone];
+  const glow = { teal: "from-teal/10", good: "from-good/10", bad: "from-bad/10" }[tone];
+  return (
+    <div className={`relative overflow-hidden rounded-2xl border border-border bg-gradient-to-br ${glow} to-surface px-6 py-5`}>
+      <div className="flex items-center justify-between mb-3">
+        <span className="text-[11px] tracking-wide text-muted uppercase font-medium">{label}</span>
+        {Icon && <Icon size={18} strokeWidth={1.8} className="text-muted" />}
+      </div>
+      <div className={`font-display text-[34px] font-semibold leading-none mb-2 ${valueColor}`}>{value}</div>
+      {breakdown && <div className="text-[12.5px] text-muted">{breakdown}</div>}
     </div>
   );
 }

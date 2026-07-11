@@ -2,36 +2,47 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import {
+  LayoutGrid, Wallet, Upload, AlertCircle, Building2, Target,
+  FileText, Kanban, Settings,
+} from "lucide-react";
 
 const NAV = [
-  { href: "/", label: "Home", icon: "◎" },
-  { href: "/financas", label: "Finanças", icon: "≋" },
-  { href: "/importar", label: "Importar", icon: "⇪" },
-  { href: "/dividas", label: "Dívidas", icon: "▣" },
-  { href: "/patrimonio", label: "Patrimônio", icon: "◆" },
-  { href: "/objetivos", label: "Objetivos", icon: "◈" },
-  { href: "/decisoes", label: "Decisões", icon: "✎" },
-  { href: "/backlog", label: "Backlog", icon: "▦" },
-  { href: "/config", label: "Configurações", icon: "⚙" },
+  { href: "/", label: "Home", icon: LayoutGrid },
+  { href: "/financas", label: "Finanças", icon: Wallet },
+  { href: "/importar", label: "Importar", icon: Upload },
+  { href: "/dividas", label: "Dívidas", icon: AlertCircle },
+  { href: "/patrimonio", label: "Patrimônio", icon: Building2 },
+  { href: "/objetivos", label: "Objetivos", icon: Target },
+  { href: "/decisoes", label: "Decisões", icon: FileText },
+  { href: "/backlog", label: "Backlog", icon: Kanban },
+  { href: "/config", label: "Configurações", icon: Settings },
 ];
 
 export default function Sidebar() {
   const pathname = usePathname();
   return (
-    <div className="w-[200px] border-r border-border p-6 flex-shrink-0 h-screen sticky top-0">
-      <div className="font-display text-lg font-bold text-gold mb-1">Horizonte 500</div>
-      <div className="text-xs text-[#5B6478] mb-8">Ramon Ciro</div>
+    <div className="w-[220px] border-r border-border p-5 flex-shrink-0 h-screen sticky top-0 overflow-y-auto">
+      <div className="flex items-center gap-3 mb-8 px-1">
+        <div className="w-11 h-11 rounded-full bg-gradient-to-br from-teal via-blue to-purple flex-shrink-0" />
+        <div>
+          <div className="font-display text-[15px] font-bold text-ink leading-tight">Horizonte 500</div>
+          <div className="text-[9.5px] text-muted uppercase tracking-wider">Sistema Operacional</div>
+        </div>
+      </div>
       {NAV.map((n) => {
         const active = pathname === n.href;
+        const Icon = n.icon;
         return (
           <Link
             key={n.href}
             href={n.href}
-            className={`flex items-center gap-2.5 px-2.5 py-2 rounded-lg mb-1 text-[13.5px] font-medium ${
-              active ? "bg-gold text-bg" : "text-[#B7BFD0] hover:bg-surface2"
+            className={`flex items-center gap-3 px-3 py-2.5 rounded-xl mb-1 text-[13.5px] font-medium transition-colors ${
+              active ? "bg-surface2 text-ink" : "text-muted hover:bg-surface2/60 hover:text-ink"
             }`}
           >
-            <span className="text-[13px]">{n.icon}</span> {n.label}
+            <Icon size={17} strokeWidth={1.8} className={active ? "text-teal" : "text-muted"} />
+            {n.label}
           </Link>
         );
       })}
